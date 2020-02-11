@@ -1584,6 +1584,13 @@ pre {
   .row:after {
     clear: both; }
 
+.tablerow {
+  display: flex;
+}
+.tablecolumn {
+  flex: 50%;
+}
+
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
@@ -7113,7 +7120,7 @@ h6 {
   height: 500px; }
   @media screen and (min-width: 768px) {
     .banner {
-      height: 950px; } }
+      height: 675px; } }
   .banner img {
     max-width: 100% !important; }
 
@@ -7177,17 +7184,21 @@ h6 {
     display: none; } }
 
 .layercontent01 {
-  left: 0% !important;
+  left: 10% !important;
   top: 150px !important; }
 
-.layercontent02, .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
+  .layercontent02 {
+    left: 45% !important;
+    top: 280px !important; }
+
+ .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
   display: none; }
 
 @media screen and (min-width: 992px) {
   .layercontent02, .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
     display: block; }
   .layercontent02 {
-    left: 80% !important;
+    left: 45% !important;
     top: 280px !important; }
   .layercontent03 {
     left: 47% !important;
@@ -7207,26 +7218,26 @@ h6 {
 
 @media screen and (min-width: 1200px) {
   .layercontent01 {
-    left: 10% !important;
+    left: 25% !important;
     top: 150px !important; }
   .layercontent02 {
-    left: 65% !important;
+    left: 45% !important;
     top: 280px !important; }
   .layercontent03 {
     left: 55% !important;
-    top: 500px !important; }
+    top: 300px !important; }
   .layercontent04 {
     left: 61.8% !important;
-    top: 605px !important; }
+    top: 405px !important; }
   .layercontent05 {
     left: 75% !important;
-    top: 705px !important; }
+    top: 505px !important; }
   .layercontent06 {
     left: 72% !important;
-    top: 750px !important; }
+    top: 550px !important; }
   .layercontent07 {
     left: 75% !important;
-    top: 850px !important; } }
+    top: 650px !important; } }
 
 @media screen and (min-width: 1500px) {
   .layercontent01 {
@@ -8014,6 +8025,25 @@ ul.videoLive {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
+
+  .bg-signup {
+    background-image: url("images/background/running-rugby.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat; }
+
+  .bg-about {
+    background-image: url("images/background/coaches-rugby.png");
+    background-size:  cover;
+    background-position: top center;
+    background-repeat: no-repeat; }
+
+    .bg-contact {
+      background-image: url("images/background/team-rugby.png");
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat; }
+
 
 .bg-black01 {
   background: #282f37; }
@@ -10483,7 +10513,7 @@ ul.slick-dots {
       padding: 20px;
       font-family: "Open Sans", sans-serif;
       font-size: 16px;
-      color: #979da0;
+      color: #000000;
       font-weight: 400; }
 
 .map_wrapper {
