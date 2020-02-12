@@ -7191,27 +7191,29 @@ h6 {
     left: 45% !important;
     top: 280px !important; }
 
- .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
+
+
+    .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
   display: none; }
 
 @media screen and (min-width: 992px) {
   .layercontent02, .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
     display: block; }
   .layercontent02 {
-    left: 45% !important;
+    left: 35% !important;
     top: 280px !important; }
   .layercontent03 {
     left: 47% !important;
-    top: 550px !important; }
+    top: 150px !important; }
   .layercontent04 {
-    left: 60.8% !important;
-    top: 655px !important; }
+    left: 50.8% !important;
+    top: 455px !important; }
   .layercontent05 {
     left: 87% !important;
-    top: 755px !important; }
+    top: 455px !important; }
   .layercontent06 {
     left: 78% !important;
-    top: 800px !important; }
+    top: 700px !important; }
   .layercontent07 {
     left: 80% !important;
     top: 900px !important; } }
@@ -7225,7 +7227,7 @@ h6 {
     top: 280px !important; }
   .layercontent03 {
     left: 55% !important;
-    top: 300px !important; }
+    top: 100px !important; }
   .layercontent04 {
     left: 61.8% !important;
     top: 405px !important; }
