@@ -8044,6 +8044,9 @@ ul.videoLive {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat; }
+    @media (min-width: 992px) {
+      .bg-signup {
+        background-image: url("images/background/running-rugby-small.png"); } }
 
   .bg-about {
     background-image: url("images/background/coaches-rugby.png");
