@@ -7121,6 +7121,10 @@ h6 {
   @media screen and (min-width: 768px) {
     .banner {
       height: 675px; } }
+
+      @media screen and (max-width: 600px) {
+        .banner {
+          display: none; } }
   .banner img {
     max-width: 100% !important; }
 
@@ -7206,7 +7210,7 @@ h6 {
     left: 47% !important;
     top: 150px !important; }
   .layercontent04 {
-    left: 50.8% !important;
+    left: 40.8% !important;
     top: 455px !important; }
   .layercontent05 {
     left: 87% !important;
