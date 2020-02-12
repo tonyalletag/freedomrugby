@@ -1574,7 +1574,12 @@ pre {
   .container-fluid:after {
     clear: both; }
 
+.bottom {
+  margin-top: 200px; 
+}
+
 .row {
+
   margin-left: -15px;
   margin-right: -15px; }
   .row:before,
@@ -7536,6 +7541,8 @@ h6 {
   .about .nav-header ul li a:hover {
     background: #57606a;
     color: white; } }
+
+
 
 /* -------------- latest result section -----------*/
 .latestResult {
