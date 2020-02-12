@@ -1575,7 +1575,7 @@ pre {
     clear: both; }
 
 .bottom {
-  margin-top: 200px; 
+  margin-top: 200px;
 }
 
 .row {
@@ -7127,7 +7127,7 @@ h6 {
     .banner {
       height: 675px; } }
 
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 992px) {
         .banner {
           display: none; } }
   .banner img {
@@ -7202,7 +7202,7 @@ h6 {
 
 
 
-    .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
+ .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
   display: none; }
 
 @media screen and (min-width: 992px) {
@@ -7218,7 +7218,7 @@ h6 {
     left: 40.8% !important;
     top: 455px !important; }
   .layercontent05 {
-    left: 87% !important;
+    left: 75% !important;
     top: 455px !important; }
   .layercontent06 {
     left: 78% !important;
