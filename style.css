@@ -7208,6 +7208,9 @@ h6 {
 @media screen and (min-width: 992px) {
   .layercontent02, .layercontent03, .layercontent04, .layercontent05, .layercontent06, .layercontent07 {
     display: block; }
+    .layercontent01 {
+      left: 10% !important;
+      top: 150px !important; }
   .layercontent02 {
     left: 35% !important;
     top: 180px !important; }
